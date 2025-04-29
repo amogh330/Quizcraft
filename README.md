@@ -99,3 +99,12 @@ Step-by-step workflow of the project:
 ## 9. Logging & Monitoring  
 - All operations (generation requests, exports, edits) are logged to a local file or cloud logging service.  
 - Errors in API calls trigger user notifications and fallbacks.
+---
+## File is uploaded onto a google drive rather than a zip file 
+so heres the link for it:https://drive.google.com/drive/folders/1B77VqgBei4npwUDmoiMm46CSJDFXGda7?usp=sharing
+---
+## After this the running is done thru windows powershell
+- step1: change directory to the path of folder
+- step2: type this command:- venv\Scripts\activate
+- step3: then this cmd:- streamlit run C:\Users\Amogh\QUIZCRAFT_V1\MCQ_GENERATOR\streamlitapp.py
+after this it must redirect u to the webpage ,if it doesnt work,pls check ur ollama and folder destination
