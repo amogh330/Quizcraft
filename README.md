@@ -1,5 +1,5 @@
-# Quizcraft
-Developed an AI-driven quiz generator using Meta-Llama-3.2 and Streamlit to create syllabus-aligned MCQs with customizable difficulty and question count. One-click export to Google Forms with automatic Drive backup, cutting quiz prep time by over 80%.
+# Quizcraft  
+Developed an end-to-end system that automatically creates multiple-choice quizzes from a given syllabus, question count, and difficulty level. Built a simple Streamlit interface powered by Meta-Llama-3.2 for AI-driven question generation, with one-click export to Google Forms and secure backup on Google Drive—cutting quiz-preparation time by over 80% and ensuring consistency across assessments.
 
 
 Step-by-step workflow of the project:
