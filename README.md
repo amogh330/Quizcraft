@@ -101,7 +101,7 @@ Step-by-step workflow of the project:
 - Errors in API calls trigger user notifications and fallbacks.
 ---
 ## File is uploaded onto a google drive rather than a zip file 
-so heres the link for it:https://drive.google.com/drive/folders/1B77VqgBei4npwUDmoiMm46CSJDFXGda7?usp=sharing
+- so heres the link for it:https://drive.google.com/drive/folders/1B77VqgBei4npwUDmoiMm46CSJDFXGda7?usp=sharing
 ---
 ## After this the running is done thru windows powershell
 - step1: change directory to the path of folder
