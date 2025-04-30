@@ -106,5 +106,5 @@ Step-by-step workflow of the project:
 ## After this the running is done thru windows powershell
 - step1: change directory to the path of folder
 - step2: type this command:- venv\Scripts\activate
-- step3: then this cmd:- streamlit run C:\Users\Amogh\QUIZCRAFT_V1\MCQ_GENERATOR\streamlitapp.py
+- step3: then this cmd:- streamlit run C:\your_filepath\streamlitapp.py
 after this it must redirect u to the webpage ,if it doesnt work,pls check ur ollama and folder destination
