@@ -1,6 +1,9 @@
 # Quizcraft  
 Developed an end-to-end system that automatically creates multiple-choice quizzes from a given syllabus, question count, and difficulty level. Built a simple Streamlit interface powered by Meta-Llama-3.2 for AI-driven question generation, with one-click export to Google Forms and secure backup on Google Drive—cutting quiz-preparation time by over 80% and ensuring consistency across assessments.
 
+## File is uploaded onto a google drive rather than a zip file 
+- so heres the link for it:https://drive.google.com/drive/folders/1B77VqgBei4npwUDmoiMm46CSJDFXGda7?usp=sharing
+---
 
 Step-by-step workflow of the project:
 ---
@@ -52,6 +55,11 @@ Step-by-step workflow of the project:
 - For Google export/storage, they complete OAuth 2.0 consent to grant Forms/Drive scopes.
 
 ---
+## After this the running is done thru windows powershell
+- step1: change directory to the path of folder
+- step2: type this command:- venv\Scripts\activate
+- step3: then this cmd:- streamlit run C:\your_filepath\streamlitapp.py
+after this it must redirect u to the webpage ,if it doesnt work,pls check ur ollama and folder destination
 
 ## 4. Input & Parameter Collection  
 1. **Streamlit UI**  
@@ -100,11 +108,4 @@ Step-by-step workflow of the project:
 - All operations (generation requests, exports, edits) are logged to a local file or cloud logging service.  
 - Errors in API calls trigger user notifications and fallbacks.
 ---
-## File is uploaded onto a google drive rather than a zip file 
-- so heres the link for it:https://drive.google.com/drive/folders/1B77VqgBei4npwUDmoiMm46CSJDFXGda7?usp=sharing
----
-## After this the running is done thru windows powershell
-- step1: change directory to the path of folder
-- step2: type this command:- venv\Scripts\activate
-- step3: then this cmd:- streamlit run C:\your_filepath\streamlitapp.py
-after this it must redirect u to the webpage ,if it doesnt work,pls check ur ollama and folder destination
+
